@@ -48,6 +48,7 @@ export default {
   
     //借助mapMutations生成的对应方法,方法中会调用commit去联系mutations。(对象写法)
     ...mapMutations('countAbout',{increment:'JIA',deincrement:'JIAN'}),
+    
     //借助mapActions生成的对应方法,方法中会调用dispatch去联系actions。(对象写法)
     ...mapActions('countAbout',{incrementOdd:'jiaOdd',incrementWait:'jiaWait'})
 

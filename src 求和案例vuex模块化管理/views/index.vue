@@ -175,7 +175,7 @@
                     </div>
                   </div>
                   <div class="rankingList_con">
-                    <li v-for="item in currentRankList" 
+                     <li v-for="item in currentRankList" 
                       :key="item.id"
                       class="rank-item"
                       @mouseenter="hoverItemId = item.id"
