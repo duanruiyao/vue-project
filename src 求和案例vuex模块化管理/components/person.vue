@@ -18,7 +18,6 @@
 <script>
 import { nanoid } from 'nanoid';
 
-  export {nanoid} from 'nanoid'
 export default {
   name:'person',
   data(){
